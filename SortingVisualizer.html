@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="Style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorting Algorithm Visualizer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .container {
+    max-width: 50000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .btn:hover {
+    background-color: #555;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Sorting Algorithm Visualizer</h1>
+  <p>Watch sorting algorithms in action and understand how they work!</p>
+</header>
+<div class="container">
+
+<script src="Script.js"></script>
+  <h2>How It Works</h2>
+  <p>This sorting algorithm visualizer allows you to see various sorting algorithms in action. Choose an algorithm, set the array size, and watch as the algorithm sorts the array step by step.</p>
+  
+  <h2>Supported Algorithms</h2>
+  <ul>
+    <li>Bubble Sort</li>
+    <li>Insertion Sort</li>
+    <li>Selection Sort</li>
+    <!-- Add more algorithms here -->
+  </ul>
+  <div id="container"></div>
+<hr>
+
+ <div>
+        <button onClick="init()"> init</button>
+        <button onClick="play()"> Bubble Sort</button>
+    </div>
+  
+</div>
+</body>
+</html>
